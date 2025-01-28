@@ -1,0 +1,27 @@
+.fluid-container{
+    height: 150px;
+    background-color: pink;
+    text-align: center;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  

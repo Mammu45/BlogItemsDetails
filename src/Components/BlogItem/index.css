@@ -1,0 +1,23 @@
+.item-container{
+    margin: 40px;
+}
+.item-image{
+    height: 450px;
+    width: 550px;
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+}
+.author-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.author-name{
+    margin: 30px;
+}
+.item-info{
+    padding: 10px;
+}

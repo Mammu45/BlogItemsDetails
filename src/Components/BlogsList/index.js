@@ -26,13 +26,13 @@ class BlosList extends Component{
     }
     render(){
         const {blogsData,isLoading}=this.state
-        console.log(blogsData)
+        //console.log(blogsData)
         return(
             <div className="blog-container">
 
     {isLoading? 
     (<Loader type="TailSpin" color="black" height={50} width={50} />):
-            (<div>{blogsData.map((e)=><BlogItem item={e} />)}</div>)
+            (<div>{blogsData.map((e)=><BlogItem item={e} key={e.id} />)}</div>)
         }    
             </div>
             

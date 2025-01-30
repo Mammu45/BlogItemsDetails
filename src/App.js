@@ -6,6 +6,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import NotFound from './Components/NotFound';
 import BlosList from './Components/BlogsList';
+import BlogItemDetails from './Components/BlogItemDeatls';
 
 const App=()=>(
   <BrowserRouter>
@@ -14,6 +15,7 @@ const App=()=>(
       <Route exact path="/" element={<BlosList />}></Route>
       <Route exact path="/about" element={<About />}></Route>
       <Route exact path="/contact" element={<Contact />}></Route>
+      <Route exact path="/blogs/:id" element={<BlogItemDetails />}></Route>
   
       <Route element={<NotFound />}></Route>
 
